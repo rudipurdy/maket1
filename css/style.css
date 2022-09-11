@@ -502,14 +502,28 @@ img {
   .footer-nav {
     flex-direction: column;
     padding-top: 90px;
-    row-gap: 70px;
+  }
+
+  .footer-nav .footer-info {
+    padding-bottom: 70px;
+    line-height: 45px;
+    row-gap: 0;
+  }
+
+  .footer-nav .contacts {
+    row-gap: 0;
+    line-height: 45px;
   }
 
   .social {
     flex-direction: row;
-    padding-top: 90px;
-    row-gap: 70px;
+    padding-top: 120px;
     justify-content: center;
+  }
+
+  .number-mail {
+    line-height: 40px;
+    row-gap: 0;
   }
 }
 
