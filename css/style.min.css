@@ -422,6 +422,11 @@ a {
   display: none;
 }
 
+img {
+  align-items: center;
+  align-self: center;
+}
+
 @media (max-width: 1111px) {
   .location-block {
     flex-direction: column;
@@ -601,6 +606,12 @@ a {
   }
 }
 
+@media (max-width: 735px) {
+  .intro-content img {
+    max-width: 500px;
+  }
+}
+
 @media (max-width: 730px) {
   .info-row {
     margin-left: 90px;
@@ -615,6 +626,10 @@ a {
   .intro-content {
     max-width: 520px;
     padding: 0 auto;
+  }
+
+  .intro h1 {
+    font-size: 30px;
   }
 }
 
@@ -641,5 +656,17 @@ a {
     max-width: 330px;
     padding: 0 auto;
     justify-content: center;
+  }
+}
+
+@media (max-width: 535px) {
+  .intro-content img {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 435px) {
+  .intro-content img {
+    max-width: 300px;
   }
 }
